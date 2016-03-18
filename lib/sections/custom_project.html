@@ -1,0 +1,21 @@
+<dom-module id="custom-project">
+	<style>
+		:host {
+		display: block;
+		}
+	</style>
+
+	<template>
+		<paper-card heading="Student Suggestion Project">
+			<div class="card-content">
+				<paper-input value='{{name::input}}' placeholder='Project'></paper-input>
+				<paper-input type="number" preventInvalidInput="true" value='{{points::input}}' placeholder='Points'></paper-input>
+				<paper-input value='{{strand::input}}' placeholder='Strand'></paper-input>
+				<paper-button on-click="addProject" style="text-align: left;">
+					<iron-icon icon="icons:add-circle-outline"></iron-icon>
+					Add
+				</paper-button>
+			</div>
+		</paper-card>
+	</template>
+</dom-module>

@@ -1,0 +1,26 @@
+<dom-module id="project-options">
+	<style>
+		:host {
+		display: block;
+		}
+	</style>
+
+	<template>
+		<paper-card heading="Project Options">
+			<div  style="width: 100%; overflow-x: scroll;">
+				<div style="display: table; table-layout: fixed; width: 100%;">
+					<div class="card-content" style="display: table-cell;">
+						<div class="horizontal layout">
+							<template is="dom-repeat" items="{{projects}}" as="project">
+								<paper-card on-click="selectItem" class="{{project.color}}">
+									<div class="card-content" style="white-space: nowrap;">{{project.name}}: {{project.points}}</div>
+								</paper-card>
+								<div style="width: 8px; min-width: 8px"></div>
+							</template>
+						</div>
+					</div>
+				</div>
+			</div>
+		</paper-card>
+	</template>
+</dom-module>

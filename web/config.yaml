@@ -1,0 +1,102 @@
+# Syntax notes
+# 1. Text data must go in quotes
+# 2. Tab characters are not allowed, use two spaces
+# 3. Lines starting with # are comments
+# 4. There must be a space after each colon before the value
+# 5. Quotes cannot contain quotes
+
+# Name of the class this file describes
+class: "Smith Spring 2016"
+
+# Link to the confrence schedule page
+schedule: "https://calendly.com/csmith03/15min/"
+
+# Your email
+email: "csmith03@bluevalleyk12.org"
+
+# Number of points needed for an A
+extra: 3
+
+# List of required (B-Strand) projects
+required:
+  - name: "Creative Writing: Grammer Explicitation"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Creative Writing: Grammer Explicitation"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Creative Writing: Style"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Synthesis Essay"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Timed Writing for Writing"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Literary Analysis"
+    points: 1
+    strand: "Reading"
+  - name: "Timed Writing for Reading"
+    points: 1
+    strand: "Reading"
+  - name: "Timed Writing for Reading"
+    points: 1
+    strand: "Reading"
+  - name: "From Research to Speech"
+    points: 1
+    strand: "Speaking & Listening"
+  - name: "Student Choice Group Project"
+    points: 1
+    strand: "Speaking & Listening"
+  - name: "Great Expectations Group Project"
+    points: 1
+    strand: "Speaking & Listening"
+  - name: "EPIC FAIL! (And Reflection)"
+    points: 1.5
+    strand: "Reflection"
+  - name: "Three semester-long reflections"
+    points: 1.5
+    strand: "Reflection"
+  - name: "Annotated Bibliography Checks"
+    points: 1
+    strand: ""
+  - name: "Weekly Responses"
+    points: 1
+    strand: ""
+  - name: "Great Expectations Quizzes"
+    points: 1
+    strand: ""
+
+# List of optional (A-Strand) projects
+optional:
+  - name: "Creative Writing with a perplexity"
+    points: 1.5
+    strand: "Writing & Language"
+  - name: "Discussion to Database Research to Product"
+    points: 1.5
+    strand: "Writing & Language"
+  - name: "Text to Database Research to Product"
+    points: 1.5
+    strand: "Writing & Language"
+  - name: "Group Project Presentation"
+    points: 1
+    strand: "Speaking & Listening"
+  - name: "Literary Analysis Database Research to Product"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Literary Analysis Deconstruction"
+    points: 1
+    strand: "Writing & Language"
+  - name: "Meetings with Mr. Smith"
+    points: 0.5
+    strand: "Smith's"
+  - name: "Large Group Discussion"
+    points: 0.5
+    strand: "Speaking & Listening"
+  - name: "Long-Term Resource"
+    points: 0.5
+    strand: "Writing & Language"
+  - name: "Small Group Discussion"
+    points: 0.25
+    strand: "Speaking & Listening"

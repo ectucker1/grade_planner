@@ -1,0 +1,27 @@
+<dom-module id="plan-io">
+	<style>
+		:host {
+		display: block;
+		}
+	</style>
+
+	<template>
+		<paper-card heading="Actions" style="width: 100%">
+			<div class="vertical layout">
+				<paper-button on-click="printPlan" style="text-align: left;">
+					<iron-icon icon="icons:print"></iron-icon>
+					Print Plan
+				</paper-button>
+				<paper-button on-click="schedule" style="text-align: left;">
+					<iron-icon icon="icons:icons:date-range"></iron-icon>
+					Schedule Meeting
+				</paper-button>
+				<paper-button on-click="email" style="text-align: left;">
+					<iron-icon icon="communication:email"></iron-icon>
+					Email Teacher
+				</paper-button>
+			<div style="height: 8px;"></div>
+			</div>
+		</paper-card>
+	</template>
+</dom-module>

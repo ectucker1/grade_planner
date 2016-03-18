@@ -1,0 +1,30 @@
+<!--
+  Copyright (c) 2016, <your name>. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+
+<dom-module id="project-checklist">
+    <style>
+        :host {
+        display: block;
+        }
+    </style>
+
+    <template>
+        <paper-card heading="Required Projects" style="height: 100%">
+            <div style="overflow-y: auto">
+                <div class="card-content" style="display:table">
+                    <template is="dom-repeat" items="{{projects}}" as="project">
+                        <paper-item role="menuitemcheckbox" nothing="{{index}}">
+                            <paper-item-body style="white-space: nowrap;">
+                                {{project.name}}: {{project.points}}
+                            </paper-item-body>
+                            <div style="width: 8px"></div>
+                            <paper-checkbox></paper-checkbox>
+                        </paper-item>
+                    </template>
+                </div>
+            </div>
+        </paper-card>
+    </template>
+</dom-module>
