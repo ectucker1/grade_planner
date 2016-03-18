@@ -1,3 +1,3 @@
 # grade_planner
 
-A web app built using polymer.dart.
+A planner for Mr. Smith's gradeless grading system. Written with Polymer Dart.
