@@ -1,6 +1,6 @@
 name: 'grade_planner'
 version: 0.0.1
-description: A web app built using polymer.dart.
+description: A web app for planing with Mr. Smith's gradeless grading system. Written with Ploymer Dart.
 #author: Your Name <email@example.com>
 #homepage: https://www.example.com
 
