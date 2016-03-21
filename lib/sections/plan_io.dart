@@ -53,7 +53,7 @@ class PlanIO extends PolymerElement {
     String grade;
     if(MainApp.plan.points >= MainApp.plan.needed)
     {
-      grade = "This plan is an A in the claass.";
+      grade = "This plan is an A in the class.";
     }
     else
     {
