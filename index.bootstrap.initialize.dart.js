@@ -6382,7 +6382,7 @@ else ;q="That's "+J.K($.bg.be)+"/"+J.K($.bg.bf)+" points"
 u=$.bg
 p=u.be
 u=u.bf
-o=p>=u?"This plan is an A in the claass.":"This plan still needs "+C.L.j(u-p)+" point(s) for an A."
+o=p>=u?"This plan is an A in the class.":"This plan still needs "+C.L.j(u-p)+" point(s) for an A."
 v.Y("createPdf",[P.cL(P.X(["content",[P.X(["text",t,"fontSize",22,"bold",!0]),P.X(["text","Projects Required for B","fontSize",16,"bold",!0]),P.X(["table",P.X(["headerRows",1,"widths",["*","auto","auto",10],"body",s])]),P.X(["text","Your A-Strand Projects","fontSize",16,"bold",!0]),P.X(["table",P.X(["headerRows",1,"widths",["*","auto","auto",10],"body",r])]),P.X(["text",q,"fontSize",14]),P.X(["text",o,"fontSize",14])]]))]).bX("open")
 return P.t(null,0,y,null)
 case 1:return P.t(w,1,y)}})
