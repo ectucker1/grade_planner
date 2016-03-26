@@ -52,11 +52,20 @@ required:
   - name: "Great Expectations Group Project"
     points: 1
     strand: "Speaking & Listening"
-  - name: "EPIC FAIL! (And Reflection)"
-    points: 1.5
+  - name: "EPIC FAIL!"
+    points: 1
     strand: "Reflection"
-  - name: "Three semester-long reflections"
-    points: 1.5
+  - name: "Epic Fail Reflection"
+    points: 0.5
+    strand: "Reflection"
+  - name: "Writing Semester Long Reflection"
+    points: 0.5
+    strand: "Reflection"
+  - name: "Reading Semester Long Reflection"
+    points: 0.5
+    strand: "Reflection"
+  - name: "S & L Semester Long Reflection"
+    points: 0.5
     strand: "Reflection"
   - name: "Annotated Bibliography Checks"
     points: 1
